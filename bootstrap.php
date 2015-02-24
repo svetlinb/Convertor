@@ -19,8 +19,8 @@ define('SAVE_PATH', getcwd()."/currency.data");
 */
 define('JSON_URL', "http://rocky-brushlands-8739.herokuapp.com/rates");
 
-require_once './Persistor.php';
-require_once './Validator.php';
-require_once './Calculate.php';
-require_once './Convertor.php';
+require_once 'model/Persistor.php';
+require_once 'model/Validator.php';
+require_once 'model/Calculate.php';
+require_once 'controller/Convertor.php';
 ?>
